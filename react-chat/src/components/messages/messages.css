@@ -1,10 +1,14 @@
 .messageBox {
-  background: #F3F3F3;
+  display: flex;
+ 
+  border: 2px solid black;
   border-radius: 20px;
-  padding: 5px 20px;
-  color: white;
+   padding: 1rem;
+   
+
   display: inline-block;
   max-width: 80%;
+  height: 2rem;
 }
 
 .messageText {
@@ -13,6 +17,7 @@
   float: left;
   font-size: 1.1em;
   word-wrap: break-word;
+  margin:0;
 }
 
 .messageText img {
@@ -22,6 +27,7 @@
 .messageContainer {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding: 0 5%;
   margin-top: 3px;
 }
@@ -60,8 +66,14 @@
 
 .backgroundBlue {
   background: #07C10A;
+  display: flex;
+  align-items: center;
+  border:none;
 }
 
 .backgroundLight {
+  display: flex;
+  align-items: center;
   background: #F3F3F3;
+  border: none;
 }
