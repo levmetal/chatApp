@@ -19,7 +19,7 @@ const [room, setRoom]= useState('')
         onChange={(event) => setRoom(event.target.value)}/>  </div>
 
         <Link onClick={event=>(!name || !room) ? event.preventDefault():null} to={`/chat?name=${name}&room=${room}`}>
-          <button className="button mt-20" type="submit" >Entrar</button>
+          <button className="button " type="submit" >Entrar</button>
 
        </Link>
 

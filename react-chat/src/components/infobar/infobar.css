@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #07C10A;
+  background: linear-gradient(to right, #0c5503, #32d609);
   border-radius: 4px 4px 0 0;
   height: 60px;
   width: 100%;
@@ -18,11 +18,18 @@
 
 .rightInnerContainer {
   display: flex;
-  flex: 0.5;
+  height: 3rem;
+  
   justify-content: flex-end;
+  align-items: center;
   margin-right: 5%;
 }
-
+.rightInnerContainer a i{
+  color:black;
+}
+.rightInnerContainer a i:hover{
+  color: #fff;
+}
 .onlineIcon {
   margin-right: 5%;
 }
