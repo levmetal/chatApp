@@ -26,9 +26,10 @@ html, body {
 }
 
 .joinInput {
-  border-radius: 0;
+  border-radius: 1rem;
   padding: 15px 20px;
   width: 100%;
+  border: none;
 }
 
 .heading {

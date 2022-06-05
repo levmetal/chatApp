@@ -18,7 +18,7 @@ const Chat =({location})=>{
 
 
 
-  const ENDPOINT =process.env.SERVER_URL    ///////////////endpoint del servidor////////////////////////////////////////////////
+  const ENDPOINT ="https://chat-react-s.herokuapp.com"   ///////////////endpoint del servidor////////////////////////////////////////////////
 
 
   useEffect(() => {
