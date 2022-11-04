@@ -10,7 +10,7 @@ const [room, setRoom]= useState('')
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
 
-        <h1 className="heading">Inicio</h1>
+        <h1 className="heading">Stay Room</h1>
         <div>  <input placeholder="name"  className="joinInput" type="text"
         onChange={(event) => setName(event.target.value)}/>  </div>
 
