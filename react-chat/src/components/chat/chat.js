@@ -18,7 +18,7 @@ const Chat =({location})=>{
 
 
 
-  const ENDPOINT ="https://chat-react-s.herokuapp.com"   ///////////////endpoint del servidor////////////////////////////////////////////////
+  const ENDPOINT ="https://serverchat.onrender.com/"   ///////////////endpoint del servidor////////////////////////////////////////////////
 
 
   useEffect(() => {
