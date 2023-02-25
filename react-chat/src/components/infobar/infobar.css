@@ -15,6 +15,9 @@
   margin-left: 5%;
   color: white;
 }
+.leftInnerContainer h3 {
+  margin-left: 2%;
+}
 
 .rightInnerContainer {
   display: flex;
