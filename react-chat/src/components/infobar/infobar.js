@@ -9,7 +9,7 @@ const InfoBar =({room})=>(
     <div className="infoBar">
       <div className="leftInnerContainer">
        <span>|</span>
-        <h3> Sala {room}</h3>
+        <h3> Room {room}</h3>
       </div>
       <div className="rightInnerContainer">
         <a href="/"><i class="material-icons ">power_settings_new</i></a>
